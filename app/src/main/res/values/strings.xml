@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="text_name">Instagram</string>
+    <string name="hint_for_username">Enter user name:</string>
+    <string name="hint_for_pass">Enter Password:</string>
+    <string name="button_name">Submit</string>
+    <string name="fragmentBtnTxt1">Inflate Fragment 1</string>
+    <string name="fragmentBtnTxt2">Inflate Fragment 2</string>
+    <string name="fragment1TxtView">Fragment1</string>
+    <string name="fragment2TxtView">Fragment2</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

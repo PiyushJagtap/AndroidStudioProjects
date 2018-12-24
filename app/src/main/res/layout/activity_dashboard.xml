@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/fragmentbtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragmentBtnTxt1"
+        android:background="@android:color/holo_red_dark"/>
+    <Button
+        android:id="@+id/fragmentbtn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragmentBtnTxt2"
+        android:background="@android:color/holo_blue_dark"/>
+    <Button
+        android:id="@+id/fragmentbtn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inflate Fragment 3"
+        android:background="@android:color/holo_green_dark"/>
+    <LinearLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>

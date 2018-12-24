@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textNameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"
+        android:gravity="center"
+        android:textSize="@dimen/text_size"
+        android:layout_margin="@dimen/margin_text"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:id="@+id/usernameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_for_username"
+        android:layout_margin="@dimen/margin_text"
+        style="@style/lgnEdtTxtStyle"/>
+    <EditText
+        android:id="@+id/passwordID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_for_pass"
+        android:layout_margin="@dimen/margin_text"
+        android:inputType="textPassword"
+        style="@style/lgnEdtTxtStyle"/>
+    <Button
+        android:id="@+id/button1"
+        android:text="@string/button_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_text"/>
+
+
+</LinearLayout>
+    </ScrollView>
